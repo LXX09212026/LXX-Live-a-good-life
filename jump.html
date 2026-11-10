@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>前往相册</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#020208;color:#fff;font-family:system-ui;padding:30px 20px;text-align:center;}
+.box{margin-top:40px;}
+.link{color:#87ceff;word-break:break-all;margin:16px 0;font-size:14px;}
+.btn{margin-top:24px;padding:12px 20px;background:#39ff99;color:#000;border:0;border-radius:99px;font-size:16px;}
+.tip{margin-top:20px;color:#aaa;font-size:14px;line-height:1.6;}
+</style>
+</head>
+<body>
+<div class="box">
+  <p>复制链接，发到微信对话框点开，在微信内打开相册</p>
+  <div class="link">https://lxx09212026.github.io/LXX19980921/</div>
+  <button class="btn" onclick="navigator.clipboard.writeText('https://lxx09212026.github.io/LXX19980921/');alert('链接已复制！打开微信粘贴发送')">复制链接</button>
+  <div class="tip">
+    提示：微信内置浏览器限制，音乐需要手动点击播放<br>
+    图片加载慢请耐心等待
+  </div>
+</div>
+</body>
+</html>
